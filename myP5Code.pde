@@ -7,6 +7,18 @@ setup = function() {
     drawBlueFish(130, 140);
     drawPufferFish(300, 300);
     drawWhale(400, 200);
+    drawOctopus(380, 300);
+    drawShrimp(100, 250);
+    drawDolphin(280, 110);
+    drawBlueFish(235, 235);
+    drawShrimp(350, 130);
+    drawRebel(180, 380);
+    drawBubble(150, 320);
+    drawPufferFish(80, 200);
+    drawBlueFish(450, 250);
+    drawPufferFish(490, 100);
+    drawOrangeFish(50,100);
+    drawMermaid(mouseX, mouseY);
 };
 
 //🟢draw Function - will run on repeat
@@ -43,5 +55,48 @@ var drawPufferFish = function(fishX, fishY){
 var drawWhale = function(fishX, fishY){
   textSize(60);
   text("🐋", fishX, fishY);
+
+}
+
+//🟡drawOctopus Function - will run when called
+var drawOctopus = function(fishX, fishY){
+  textSize(50);
+  text("🐙", fishX, fishY);
+
+}
+
+//🟡drawDolphin Function - will run when called
+var drawDolphin = function(fishX, fishY){
+  textSize(60);
+  text("🐬", fishX, fishY);
+
+}
+
+//🟡drawShrimp Function - will run when called
+var drawShrimp = function(fishX, fishY){
+  textSize(30);
+  text("🦐", fishX, fishY);
+
+}
+
+//🟡drawRebel Function - will run when called
+var drawRebel = function(fishX, fishY){
+  textSize(60);
+  text("🐱‍🚀", fishX, fishY);
+
+}
+
+//🟡drawBubble Function - will run when called
+var drawBubble = function(fishX, fishY){
+  textSize(60);
+  text(".˚○ •  ", fishX, fishY);
+
+}
+
+
+//🟡drawMermaid Function - will run when called
+var drawMermaid = function(mouseX, mouseY){
+  textSize(30);
+  text("🧜‍♀️", mouseX, mouseY);
 
 }
